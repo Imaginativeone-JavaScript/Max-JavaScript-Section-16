@@ -1,0 +1,13 @@
+16 00:57:15 | More on Numbers & Strings  
+- [ ] 336 01 Module Introduction | 00:53  
+- [ ] 337 02 How Numbers Work & Behave in JavaScript | 07:46  
+- [ ] 338 03 Floating Point (Im)Precision | 11:04  
+- [ ] 339 04 The BigInt Type | 03:36  
+- [ ] 340 05 The Global "Number" and "Math" Objects | 02:47  
+- [ ] 341 06 Example: Generate Random Number Between Min/ Max | 05:33  
+- [ ] 342 07 Exploring String Methods | 01:43  
+- [ ] 343 08 Tagged Templates | 10:28  
+- [ ] 344 09 Introducing Regular Expressions ("RegEx") | 04:30  
+- [ ] 345 10 More on Regular Expressions | 07:25  
+- [ ] 346 11 Wrap Up | 01:20  
+- [ ] 347 12 Useful Resources & Links | 00:10
