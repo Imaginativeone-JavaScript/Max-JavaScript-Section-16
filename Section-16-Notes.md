@@ -18,8 +18,12 @@
   - (0.2 + 0.4).toFixed(2)
   - 20.2 * 100 (work with integers only to boost precision)
   - utility functions
-- [ ] 339 04 The BigInt Type | 03:36  
-- [ ] 340 05 The Global "Number" and "Math" Objects | 02:47  
+- [ ] 339 04 The BigInt Type | 03:36
+  - BigInteger Type
+  - 9007199254740991n << added an "n" to the back
+  - No mixing BigInt with other numbers
+- [ ] 340 05 The Global "Number" and "Math" Objects | 02:47
+  - 
 - [ ] 341 06 Example: Generate Random Number Between Min/ Max | 05:33  
 - [ ] 342 07 Exploring String Methods | 01:43  
 - [ ] 343 08 Tagged Templates | 10:28  
