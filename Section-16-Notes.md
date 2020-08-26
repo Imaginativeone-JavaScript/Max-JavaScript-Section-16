@@ -1,7 +1,23 @@
 16 00:57:15 | More on Numbers & Strings  
 - [ ] 336 01 Module Introduction | 00:53  
-- [ ] 337 02 How Numbers Work & Behave in JavaScript | 07:46  
-- [ ] 338 03 Floating Point (Im)Precision | 11:04  
+- [ ] 337 02 How Numbers Work & Behave in JavaScript | 07:46
+  - In JavaScript, every number is a float, that is, a number with decimal places
+  - Numbers are stored as 64 Bit Floating Points in JavaScript
+  - https://en.wikipedia.org/wiki/Floating-point_arithmetic
+  - Maximum and a Minimum Number, limits to precision
+  - Number.MAX_SAFE_INTEGER
+  - Math.pow(2, 53) - 1
+  - Number.MIN_SAFE_INTEGER
+  - Number.MAX_VALUE
+- [ ] 338 03 Floating Point (Im)Precision | 11:04
+  - 0.2 + 0.4 === 0.600000000000001; 0.2 + 0.4 <> 0.6 in JavaScript
+  - Binary vs Decimal
+  - 1/3 0.333 decimal
+  - (1).toString(2) // 1 binary
+  - (5).toString(2) // 101 binary
+  - (0.2 + 0.4).toFixed(2)
+  - 20.2 * 100 (work with integers only to boost precision)
+  - utility functions
 - [ ] 339 04 The BigInt Type | 03:36  
 - [ ] 340 05 The Global "Number" and "Math" Objects | 02:47  
 - [ ] 341 06 Example: Generate Random Number Between Min/ Max | 05:33  
