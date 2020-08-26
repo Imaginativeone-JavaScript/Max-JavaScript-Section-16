@@ -41,7 +41,13 @@
   
   ```javascript
   function productDescription(strings, productName, productPrice) {
-    return 'This is a product!';
+  
+    console.log(strings);
+    console.log(productName);
+    console.log(productPrice);
+  
+    // return 'This is a product!';
+    return `${strings[0]}${productName}${strings[1]}${productPrice}${strings[2]}`;
   }
   
   const prodName = 'JavaScript Course';
