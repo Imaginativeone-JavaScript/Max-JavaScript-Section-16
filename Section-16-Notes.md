@@ -24,7 +24,9 @@
   - No mixing BigInt with other numbers
 - [ ] 340 05 The Global "Number" and "Math" Objects | 02:47
   - Number.POSITIVE_INFINITY
-  - Math.E, PI, algebra, trig, etc
+  - Math.E, PI, algebra, trig, etc  
+- [ ] 341 06 Example: Generate Random Number Between Min/ Max | 05:33
+
   - Math.random() [between 0 and 1]
   
   ```javascript
@@ -32,10 +34,22 @@
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
   ```
+
+- [ ] 342 07 Exploring String Methods | 01:43
+- [ ] 343 08 Tagged Templates | 10:28
+  - A function that works together with a Template Literal
   
-- [ ] 341 06 Example: Generate Random Number Between Min/ Max | 05:33  
-- [ ] 342 07 Exploring String Methods | 01:43  
-- [ ] 343 08 Tagged Templates | 10:28  
+  ```javascript
+  function productDescription(strings, productName, productPrice) {
+    return 'This is a product!';
+  }
+  
+  const prodName = 'JavaScript Course';
+  const prodPrice = 29.99;
+  
+  const productOutput = productDescription`This product (${prodName}) is ${prodPrice}`;
+  ```
+  
 - [ ] 344 09 Introducing Regular Expressions ("RegEx") | 04:30  
 - [ ] 345 10 More on Regular Expressions | 07:25  
 - [ ] 346 11 Wrap Up | 01:20  
