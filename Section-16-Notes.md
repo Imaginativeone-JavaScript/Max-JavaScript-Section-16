@@ -48,6 +48,7 @@
   
     // return 'This is a product!';
     return `${strings[0]}${productName}${strings[1]}${productPrice}${strings[2]}`;
+    // return { name: productName, price: productPrice };
   }
   
   const prodName = 'JavaScript Course';
