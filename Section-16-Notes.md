@@ -57,7 +57,17 @@
   const productOutput = productDescription`This product (${prodName}) is ${prodPrice}`;
   ```
   
-- [ ] 344 09 Introducing Regular Expressions ("RegEx") | 04:30  
-- [ ] 345 10 More on Regular Expressions | 07:25  
-- [ ] 346 11 Wrap Up | 01:20  
+- [ ] 344 09 Introducing Regular Expressions ("RegEx") | 04:30
+  - const regex = /^\S+@\S+\.\S+$/ // match email addresses
+- [ ] 345 10 More on Regular Expressions | 07:25
+  ```javascript
+  const regex = /hello/
+  
+  regex.test('hello'); // true
+  regex.test('hi there, hello'); // true
+  regex.test('hi there, hello ... '); // true
+  regex.test('Hello'); // false
+  ```
+
+- [ ] 346 11 Wrap Up | 01:20
 - [ ] 347 12 Useful Resources & Links | 00:10
